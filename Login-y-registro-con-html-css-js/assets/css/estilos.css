@@ -11,6 +11,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+   
 }
 
 .imagen {
@@ -210,48 +211,47 @@ body {
 }
 
 .p1 {
-    position: fixed;
-    top: 100px;
+    position: absolute;
+    top: 800px;
     left: 620px;
     font-size: 30px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: -405px;
     color: #fff;
 }
 .p2 {
-    position: fixed;
-    top: 190px;
+    position: absolute;
+    top: 860px;
     left: 620px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: -600px;
     color: #fff;
 }
 .p3 {
-    position: fixed;
-    top: 800px;
-    left: 600px;
-    margin-top: -80px;
-    margin-left: -580px;
+    position: absolute;
+    top: 1660px;
+    left: 500px;
+    margin-top: 80px;
+    margin-left: -230px;
     color: #fff;
     font-size: 30px;
 }
 .p4 {
-    position: fixed;
-    top: 900px;
+    position: absolute;
+    top: 1720px;
     left: 600px;
-    margin-top: -120px;
-    margin-left: -570px;
+    margin-top: 80px;
+    margin-left:  -590px;
     color: #fff;
-    max-width: 400px;
 }
 .container {
     position: relative;
     max-width: 100%;
     height: auto;
-    overflow-y: auto;
 }
 
 img {
     max-width: 100%;
     height: auto;
+    
 }

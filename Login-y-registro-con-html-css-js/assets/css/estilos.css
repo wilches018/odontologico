@@ -48,6 +48,7 @@ body {
     top: 0;
     left: 0;
     background-color: white;
+    z-index: 2;
 }
 
 .container {
@@ -109,6 +110,7 @@ body {
 /*Menù lateral*/
 #btn-menu {
     display: none;
+
 }
 
 .container-menu {
@@ -181,10 +183,19 @@ body {
 
 .carousel-inner {
     height: auto;
-    position: fixed;
+    position: relative;
     top: 104px;
     left: 0px;
+    z-index: 1;
 }
+.nuevo-div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    /* Estilos adicionales del nuevo div aquí... */
+  }
 
 .carousel-item img {
     height: 650px;
@@ -244,14 +255,57 @@ body {
     margin-left:  -590px;
     color: #fff;
 }
+.p5 {
+    position: absolute;
+    top: 60px;
+    left: 600px;
+    margin-top: 80px;
+    margin-left:  -590px;
+    color: #fff;
+    font-size: 30px;
+}
+.p6 {
+    position: absolute;
+    top: 120px;
+    left: 600px;
+    margin-top: 80px;
+    margin-left:  -590px;
+    color: #fff;
+}
 .container {
     position: relative;
     max-width: 100%;
     height: auto;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    
+.menu {
+    /* Estilos para el menú */
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999; /* Un valor alto para asegurarse de que el menú esté delante de otros elementos */
+    /* Otros estilos adicionales */
 }
+/* CSS */
+
+.nuevo-div {
+    position: relative;
+    z-index: 2; /* Valor mayor para que esté por encima del carrusel */
+    /* Resto de estilos para el nuevo div... */
+}
+.div-3{
+    position: relative;
+    z-index: 3;
+    top: 400px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 10px;
+    /* Agrega aquí otros estilos para el contenedor del formulario */
+}
+
+
+
+
+

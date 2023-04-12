@@ -225,7 +225,7 @@ body {
 .p1 {
     position: absolute;
     top: 800px;
-    left: 620px;
+    left: 820px;
     font-size: 30px;
     margin-top: 10px;
     margin-left: -405px;
@@ -244,7 +244,7 @@ body {
 .p3 {
     position: absolute;
     top: 1660px;
-    left: 500px;
+    left:  680px;
     margin-top: 80px;
     margin-left: -230px;
     color: #fff;
@@ -318,7 +318,7 @@ body {
 
 .p11 {
     position: absolute;
-    top: 500px;
+    top: 440px;
     left: 850px;
     margin-top: 80px;
     margin-left: -590px;
@@ -328,7 +328,7 @@ body {
 
 .p12 {
     position: absolute;
-    top: 600px;
+    top: 550px;
     left: 600px;
     margin-top: 80px;
     margin-left: -590px;
@@ -371,6 +371,25 @@ body {
     color: #fff;
  
 }
+.p17 {
+    position: absolute;
+    top: 1300px;
+    left: 1200px;
+    margin-top: 80px;
+    margin-left: -590px;
+    color: #fff;
+    font-size: 30px;
+ 
+}
+.p18 {
+    position: absolute;
+    top: 1400px;
+    left: 1200px;
+    margin-top: 80px;
+    margin-left: -590px;
+    color: #fff;
+ 
+}
 
 .container {
     position: relative;
@@ -401,6 +420,19 @@ body {
     position: absolute;
     top: 1114px;
     left: 240px;
+    border-radius: 80%;
+    /* Define un radio del 50% para que tenga forma de círculo */
+    width: 200px;
+    /* Ajusta el ancho de la imagen según tus necesidades */
+    height: 200px;
+    /* Ajusta la altura de la imagen según tus necesidades */
+    object-fit: cover;
+    /* Opcional: ajusta la forma en que la imagen se ajusta dentro del contenedor */
+}
+.imagen-circular3 {
+    position: absolute;
+    top: 1390px;
+    left: 400px;
     border-radius: 80%;
     /* Define un radio del 50% para que tenga forma de círculo */
     width: 200px;

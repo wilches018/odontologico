@@ -27,3 +27,16 @@ document.getElementById('odontologiaForm').addEventListener('submit', function (
         document.getElementById('odontologiaForm').reset();
     }
 });
+// Obtén el elemento del campo de número de tarjeta
+var cardNumberInput = document.getElementById('cardNumber');
+
+// Agrega un evento de entrada al campo de número de tarjeta
+cardNumberInput.addEventListener('input', function(event) {
+    // Oculta el valor del campo de número de tarjeta
+    var cardNumberValue = event.target.value;
+    var hiddenCardNumberValue = '';
+    for (var i = 0; i < cardNumberValue.length; i++) {
+        hiddenCardNumberValue += '*';
+    }
+    event.target.value = hiddenCardNumberValue;
+});
